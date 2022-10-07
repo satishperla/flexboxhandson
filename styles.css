@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px;
+}
+.col1{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.col2{
+    width: 15%;
+    height: 500px;
+    background-color: rgb(224, 232, 224);
+
+}
+.row1{
+    height: 35%;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+.row2{
+    height: 65%;
+    margin-top: 10px;
+    background-color: rgb(224, 232, 224);
+
+}
+.container>div{
+    margin: 20px;
+}
+.inner-container{
+    margin: 50px;
+}
+.horizantal-line1{
+    width: 200px;
+    height: 12px;
+    background-color: gray;
+   margin-left: 0px;
+   margin-bottom: 10px;
+}
+.horizantal-line2{
+    width: 200px;
+    height: 4px;
+    background-color: gray;
+   margin-left: 0px;
+   margin-bottom: 50px;
+}
+.horizantal-line,.horizantal-line22{
+    height: 4px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.profile-icon{
+    height: 35%;
+}
+.profile-details{
+    height: 65%;
+    margin: 0px 50px 50px 50px;
+}
+.horizantal-line21{
+    height: 12px;
+    background-color: gray;
+   margin-left: 0px;
+   margin-bottom: 30px; 
+}
+.horizantal-line23{
+    height: 80px;
+    margin-top: 30px;
+    background-color: gray;
+}
+img{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
